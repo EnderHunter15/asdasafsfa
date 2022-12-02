@@ -45,6 +45,7 @@ body {
   box-shadow: 2px 5px 2px black;
   margin-right: 320px;
   margin-left: 10px;
+  outline: none;
 }
 
 .buttonsContainer {
@@ -103,4 +104,24 @@ body {
 
 .buttonsContainer > a {
   text-decoration: none;
+}
+
+.content {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product > img {
+  height: 200px;
+  width: 200px;
+}
+
+.price {
+  color: rgb(1, 211, 1);
+  font-size: 30px;
+}
+
+.title {
+  font-size: 20px;
 }
